@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container flex flex-col gap-2 bg-[#1c1c1c] h-screen items-center justify-center">
+        <p class="font-bold text-white text-3xl">Tic Tac Toe</p>
+
+        <div class="row flex gap-2 cursor-pointer">
+            
+            <div id="cell00" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+            <div id="cell01" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+            <div id="cell02" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+        </div> 
+        <div class="row flex gap-2 cursor-pointer">
+
+            <div id="cell10" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+            <div id="cell11" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div> 
+
+            <div id="cell12" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+        </div>
+        <div class="row flex gap-2 cursor-pointer">
+
+            <div id="cell20" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+            <div id="cell21" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+            <div id="cell22" class="box h-[80px] w-[80px] bg-white hover:opacity-35 font-extrabold text-xl px-3 items-center justify-center flex"></div>
+
+        </div>
+        <p class="win-text font-bold text-white text-xl"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
